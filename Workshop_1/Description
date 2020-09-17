@@ -1,0 +1,11 @@
+Workshop 1 was an introductory workshop to setting up the raspberry pi. 
+
+The project was to create a magic 8 ball program. The program asks the user for a question, and generates a classic "magic 8 ball" response. 
+The user can then choose to ask another question to quit the program.
+
+My implemntation used random number generator value as the input argument to a function. 
+
+On each iteration of the while loop, the function was called and output a response. The random number generator value corresponded to the index of 
+a response array which housed a mixture of magic 8 ball responses. 
+
+Then the program printed the output and continued until the user chose to exit the script.
