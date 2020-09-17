@@ -1,0 +1,10 @@
+Workshop 2 taught the basic introductory hardware concepts: voltage, current, resistance, LEDs, and push buttons.
+
+The project was to create a traffic light system. 
+
+Task 1: create a single traffic light system given one red, one yellow, and one green led. Use a push button to signal when the traffic light should transition. 
+Task 2: create a system of two traffic lights using two sets of lights and two push buttons. 
+
+When button A is pushed, that signals that a car is waiting at the on set of lights, and the system should transition using appropriate time delays. 
+When button B is pushed, that signals that a car is waiting at the other set of lights, and the system should transition using appropriate time delays.
+
