@@ -1,0 +1,10 @@
+In workshop 3 we learned how to use the HC-SR04 ultrasonic distance sensor. 
+
+The project consisted of two tasks:
+  (1) Create a distance monitor reader using LEDs. With four LEDs lined up, when your hand is close to the sensor (~3-10cm), all 4 are lit up. 
+      As you move further away, the lights will go down to where >20cm only one LED is on. 
+      Challenge task: create a real-time plot showing the sensor reading data. This can be accompished using the 3D plotting feature of matplotlib & numpy. 
+  (2) Building off of workshop 2 (traffic light system), replace the buttons with two distance sensors. As a car now "approaches" the light, if the sensor reads
+      for a certain duration of time that a car is present at one light, the system needs to change. 
+      Account for only one car being at each light. 
+      Challenge task: what if there is one car sitting at each light? Could implement a timer for which car arrived first? 
